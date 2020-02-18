@@ -1,0 +1,22 @@
+print("Cześc jestem Wojtek i mam 12 lat, podasz mi swoje imię ?")
+imie = input()
+if imie == "irek":
+    print("masz dobre imie")
+else:
+    print("chujowe masz imię")
+
+interesy = input("co robisz w weekendy?")
+if interesy == "chleję":
+    print("ja też :)")
+elif interesy == "gówno":
+    print("zjedz je równo")
+else:
+    print("nudziarz z ciebie" )
+drink = input("wybierz (piwo lub wino) : ")
+if drink == "piwo":
+    print("twoje piwo")
+elif drink == "wino":
+    print("chlej to wino")
+else:
+    print("chuj ci w dupe")
+# SZukam sposobu na rozkminienie, żeby z input interpretował tylko 2 znaki ze stringa. Np. jak jest "chleję" to żeby reagował na "ch
